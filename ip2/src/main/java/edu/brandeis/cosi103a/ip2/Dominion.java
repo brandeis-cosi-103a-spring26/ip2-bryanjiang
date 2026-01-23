@@ -21,7 +21,7 @@ abstract class Card {
         this.cost = cost;
         this.type = type;
     }
-    
+
     public String getName() { return name; }
     public int getCost() { return cost; }
     public String getType() { return type; }
@@ -263,7 +263,7 @@ class Turn {
     }
     
     private Card chooseBestCard(int availableCoins) {
-        // AI logic: prefer automation cards, then cryptocurrency cards
+        // Logic: prefer automation cards, then cryptocurrency cards
         // First, try to find an automation card we can afford
         String[] automationCards = {"Framework", "Module", "Method"};
         for (String cardName : automationCards) {
