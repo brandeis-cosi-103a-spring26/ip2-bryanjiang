@@ -21,7 +21,7 @@ abstract class Card {
         this.cost = cost;
         this.type = type;
     }
-    
+
     public String getName() { return name; }
     public int getCost() { return cost; }
     public String getType() { return type; }
